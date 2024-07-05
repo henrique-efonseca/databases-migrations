@@ -1,0 +1,20 @@
+mongodb:
+  uri: "your_mongodb_connection_string"
+  database: "your_mongodb_name"
+
+postgresql:
+  dbname: "your_postgresql_db"
+  user: "your_postgresql_user"
+  password: "your_postgresql_password"
+  host: "your_postgresql_host"
+  port: "your_postgresql_port"
+
+collections:
+  - name: "Account"
+  - name: "Session"
+  - name: "User"
+  - name: "VerificationToken"
+  - name: "Category"
+  - name: "Post"
+  - name: "PostCategory"
+  - name: "Comment"
